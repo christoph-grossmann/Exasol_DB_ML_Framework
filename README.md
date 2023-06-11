@@ -1,2 +1,2 @@
-# Exasol_DB_SQL_ML_Extension
+# Exasol_DB_ML_Framework
 Framework for extending SQL for machine learning on Exasol database systems.
