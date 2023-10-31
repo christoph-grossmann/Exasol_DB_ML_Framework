@@ -120,16 +120,16 @@ function process(sqltext)
 			name .. ", " .. onobj .. ", '" .. predobj ..
 			"', '" .. useobj .. "', '" .. withobj .. "')"
 	elseif command == 'REPLACE' then
-
+		error("The 'REPLACE' command is not supported by the current version of this framework.")
 	elseif command == 'ALTER' then
-
+		error("The 'ALTER' command is not supported by the current version of this framework.")
 	elseif command == 'RENAME' then
-
+		error("The 'RENAME' command is not supported by the current version of this framework.")
 	elseif command == 'DROP' then
-
+		error("The 'DROP' command is not supported by the current version of this framework.")
+	elseif command == 'REFRESH' then
+		error("The 'REFRESH' command is not supported by the current version of this framework.")
 	end
 	
 	return sqltext
 end
-
--- RETRAIN / REFRESH model
