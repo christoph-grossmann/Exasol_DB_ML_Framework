@@ -26,7 +26,7 @@ local labelcnt = occcntinstr(labels, ',') + 1
 local res = query([[SELECT * FROM ML.Model WHERE Name = :n]], { n = name })
 
 if #res > 0 then
-	error("Model with the name '" .. name .. "' already exists.")
+	error("A model with the name '" .. name .. "' already exists.")
 end
 
 local tokens = sqlparsing.tokenize(settings)
