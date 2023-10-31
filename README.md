@@ -29,7 +29,7 @@ FROM employees WHERE salary IS NULL;
 
 <a rel="layers" href="./Documentation/Layers_Elements_ML_Framework.md"><img alt="Layers and Elements of the Machine-Learning Framework" style="border-width:0" src="./Documentation/Layers_Elements_ML_Framework.png" width="800" /></a>
 
-## Currently supported Algorithms
+## [Currently supported Algorithms](Documentation/ML_Algorithms_supported_by_Framework.md)
 
 | Library      | Namespace    | Algorithm              | Output Type    |
 | ------------ | ------------ | ---------------------- | -------------- |
