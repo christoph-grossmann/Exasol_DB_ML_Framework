@@ -19,15 +19,15 @@ FROM employees WHERE salary IS NULL;
 
 ## [Syntax for Training a Model](Documentation/SQL_Syntax_ML_Model_Creation.md)
 
-[![SQL Syntax for Machine-Learning Model Creation][documentation/SQL_Syntax_ML_Model_Creation.png]](Documentation/SQL_Syntax_ML_Model_Creation.md)
+<a rel="syntaxTrain" href="./Documentation/SQL_Syntax_ML_Model_Creation.md"><img alt="SQL Syntax for Machine-Learning Model Creation" style="border-width:0" src="./Documentation/SQL_Syntax_ML_Model_Creation.png" width="800" /></a>
 
 ## [Syntax for Predicting using a Model](Documentation/SQL_Syntax_ML_Model_Prediction.md)
 
-[![SQL Syntax for Machine-Learning Model Prediction][Documentation/SQL_Syntax_ML_Model_Prediction.png]](Documentation/SQL_Syntax_ML_Model_Prediction.md)
+<a rel="syntaxPred" href="./Documentation/SQL_Syntax_ML_Model_Prediction.md"><img alt="SQL Syntax for Machine-Learning Model Prediction" style="border-width:0" src="./Documentation/SQL_Syntax_ML_Model_Prediction.png" width="800" /></a>
 
 ## [Layers and Elements](Documentation/Layers_Elements_ML_Framework.md)
 
-[![Layers and Elements of the Machine-Learning Framework][Documentation/Layers_Elements_ML_Framework.png]](Documentation/Layers_Elements_ML_Framework.md)
+<a rel="layers" href="./Documentation/Layers_Elements_ML_Framework.md"><img alt="Layers and Elements of the Machine-Learning Framework" style="border-width:0" src="./Documentation/Layers_Elements_ML_Framework.png" width="800" /></a>
 
 ## Currently supported Algorithms
 
